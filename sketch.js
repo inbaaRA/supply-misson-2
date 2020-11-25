@@ -60,16 +60,6 @@ function draw() {
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
 
-  if (keyPressed(RIGHT_ARROW)){
-	helicopterSprite.velocityX = 1;
-	packageSprite.velocityX = 1;
-  }
-
-  if (keyPressed(LEFT_ARROW)){
-	helicopterSprite.velocityX = -1;
-	packageSprite.velocityX = -1;
-
-  }
   
 
   drawSprites();
